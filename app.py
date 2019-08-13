@@ -24,11 +24,11 @@ def callback():
     userText = decoded["events"][0]['message']['text']
     #sendtext(user,usertext)
     if (wiliwan == 'สวัสดี') :
-       sendText(user,'ดีจ้าาาา')
+       sendtext(user,'ดีจ้าาาา')
     elif (wiliwan == 'ทำอะไรอยู่') :
-       sendText(user,'กินจ้าา')
+       sendtext(user,'กินจ้าา')
     else :
-       sendText(user,'ฉันไม่เข้าจายย')
+       sendtext(user,'ฉันไม่เข้าจายย')
     
     return '',200
 def sendText(user, text):
